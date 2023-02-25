@@ -1,4 +1,3 @@
-Sitemap: https://precedent.dev/sitemap.xml
 
 User-agent: *
 Disallow: /api
