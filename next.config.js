@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     domains: ["lh3.googleusercontent.com"],
   },
+  experimental: {
+    runtime: "edge",
+  },
   async redirects() {
     return [
       {
