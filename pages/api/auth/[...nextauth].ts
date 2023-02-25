@@ -6,6 +6,10 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { Provider } from "next-auth/providers";
 import { boolean } from "boolean";
 
+export const config = {
+  runtime: "edge",
+};
+
 const providers: Provider[] = [];
 
 if (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET) {

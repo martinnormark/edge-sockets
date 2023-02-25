@@ -1,5 +1,9 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
+export const config = {
+  runtime: "edge",
+};
+
 function generateSiteMap({
   hostname,
   users,
