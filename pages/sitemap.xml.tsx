@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 export const config = {
-  runtime: "edge",
+  runtime: "experimental-edge",
 };
 
 function generateSiteMap({

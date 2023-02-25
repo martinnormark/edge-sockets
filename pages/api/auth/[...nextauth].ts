@@ -7,7 +7,7 @@ import { Provider } from "next-auth/providers";
 import { boolean } from "boolean";
 
 export const config = {
-  runtime: "edge",
+  runtime: "experimental-edge",
 };
 
 const providers: Provider[] = [];
