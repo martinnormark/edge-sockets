@@ -10,6 +10,7 @@
     "start": "next start",
     "prebuild": "prisma generate",
     "predev": "prisma generate",
+    "db": "prisma db push",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "@types/react-dom": "18.0.10",
     "@vercel/analytics": "^0.1.6",
     "@vercel/og": "^0.0.26",
+    "boolean": "^3.2.0",
     "classnames": "^2.3.2",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
